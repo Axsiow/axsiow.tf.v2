@@ -1,6 +1,6 @@
-# astrolus
+# Axsiow website build with Astro.js
 
-A page template built with astro and tailwindcss using tailus blocks.
+A page template built with astro and tailwindcss using [tailus blocks](https://github.com/Tailus-UI/astro-theme).
 
 ## 🚀 Project Structure
 
