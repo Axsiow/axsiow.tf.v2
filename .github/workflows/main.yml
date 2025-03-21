@@ -1,0 +1,20 @@
+name : Node.js CI
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+  runs-on: self-hosted
+
+  steps:
+  - uses: actions/checkout@v2
+  - name: Use Node.js 18.x
+    uses: 
+  - run: npm install
+  - run: npm run build
+  - run: cp dist ../axsiow.tf
+  - run: systemctl restart nginx
+  
