@@ -15,6 +15,6 @@ jobs:
     uses: 
   - run: npm install
   - run: npm run build
-  - run: cp dist ../axsiow.tf
+  - run: cp -r axsiow.tf.v2/dist /var/www/axsiow.tf
   - run: systemctl restart nginx
   
